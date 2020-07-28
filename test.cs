@@ -1,6 +1,6 @@
-class Test
+class Test : IShow
 {
-    public string Message {get; set;}
+    public string Message {get; private set;}
 
     public Test(string message) => this.Message = message;
 
