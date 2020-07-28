@@ -6,6 +6,6 @@ class Test : IShow
 
     public void Show()
     {
-        Console.Writeline(Message);
+        Console.Writeline($"This is the legasy messenger: {Message}");
     }
 }
